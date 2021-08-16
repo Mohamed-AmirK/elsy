@@ -21,32 +21,31 @@ export class App extends React.Component {
           </p>
 
           {/* Water  */}
-          <Box 
-          icon="local_drink"
-          color="#3A85FF"
-          value={1.5}
-          unit="L" />
+          <Box
+            icon="local_drink"
+            color="#3A85FF"
+            value={1.5}
+            unit="L" />
 
           {/* Steps */}
           <Box icon="directions_walk"
-          color="black"
-          value={3000}
-          unit="steps"/>
+            color="black"
+            value={3000}
+            unit="steps" />
 
           {/* Heart */}
-          <Box 
-          icon="favorite"
-          color="red"
-          value={120}
-          unit="bpm"/>
+          <Box
+            icon="favorite"
+            color="red"
+            value={120}
+            unit="bpm" />
 
           {/* Temperature */}
-          <Box 
-          icon="wb_sunny"
-          color="yellow"
-          value={-10}
-          unit="°C"
-          />
+          <Box
+            icon="wb_sunny"
+            color="yellow"
+            value={-10}
+            unit="°C"/>
         </div>
       </div>
     );
